@@ -1,0 +1,3 @@
+ID,Name,Type,is_high_value,is_mid_value,is_low_value,Owner
+1,Webinar-dbtMesh,All,Y,Y,Y,Rebecca
+2,Conference-tix,High,Y,N,N,Ted
