@@ -2,7 +2,7 @@
 
 with campaigns as (
 
-    select * from {{ ref('campaigns') }}
+    select * from {{ ref('stg_campaigns') }}
 
 ),final as (
 
