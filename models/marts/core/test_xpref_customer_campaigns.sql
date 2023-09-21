@@ -1,1 +1,0 @@
-select * from {{ ref('acme_sales','dim_customers',v=2) }}
