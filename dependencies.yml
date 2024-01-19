@@ -1,2 +1,3 @@
 projects:
-  - name: acme_sales
+  - name: analytics
+  - name: sales
