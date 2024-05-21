@@ -1,4 +1,3 @@
-
 with engaged_users_staging as (
     select * from {{ ref('stg_engaged_users') }}
 )
