@@ -1,5 +1,3 @@
-
-
 with campaigns as (
 
     select * from {{ ref('campaigns') }}
