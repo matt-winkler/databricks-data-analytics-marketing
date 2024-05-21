@@ -1,18 +1,18 @@
 with part as (
     
-    select * from {{ ref('stg_tpch_parts') }}
+    select * from {{ ref('analytics', 'stg_tpch_parts') }}
 
 ),
 
 supplier as (
 
-    select * from {{ ref('stg_tpch_suppliers') }}
+    select * from {{ ref('analytics', 'stg_tpch_suppliers') }}
 
 ),
 
 part_supplier as (
 
-    select * from {{ ref('stg_tpch_part_suppliers') }}
+    select * from {{ ref('analytics', 'stg_tpch_part_suppliers') }}
 
 ),
 

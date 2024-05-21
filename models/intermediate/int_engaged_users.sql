@@ -1,5 +1,5 @@
 with engaged_users_staging as (
-    select * from {{ ref('stg_engaged_users') }}
+    select * from {{ ref('engaged_users') }}
 )
 
     select
