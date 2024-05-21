@@ -1,2 +1,6 @@
 projects:
   - name: analytics
+
+packages:
+  - package: calogica/dbt_expectations
+    version: 0.10.3
