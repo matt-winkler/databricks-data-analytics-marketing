@@ -107,7 +107,6 @@ models:
       - name: supplier_name
         description: '{{ doc("supplier_name") }}'
       - name: supplier_address
-        description: '{{ doc("supplier_address") }}'
       - name: nation
         description: nation name
       - name: region
